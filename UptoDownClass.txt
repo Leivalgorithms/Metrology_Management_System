@@ -1,0 +1,260 @@
+//SEC105 WHOLE
+Set(Rec105Color,Color.GreenYellow);
+//SEC105 COLUMN 1
+Set(Rec1051Color,Color.GreenYellow);Set(Rec1052Color,Color.GreenYellow);Set(Rec1053Color,Color.GreenYellow);Set(Rec1054Color,Color.GreenYellow);
+//SEC105 COLUMN 2
+Set(Rec1055Color,Color.GreenYellow);Set(Rec1056Color,Color.GreenYellow);Set(Rec1057Color,Color.GreenYellow);Set(Rec1058Color,Color.GreenYellow);
+//SEC105 COLUMN 3
+Set(Rec1059Color,Color.GreenYellow);Set(Rec10510Color,Color.GreenYellow);Set(Rec10511Color,Color.GreenYellow);Set(Rec10512Color,Color.GreenYellow);
+//SEC101 WHOLE
+Set(Rec101Color,Color.GreenYellow);
+//SEC101 COLUMN 1
+Set(Rec1011Color,Color.GreenYellow);Set(Rec1012Color,Color.GreenYellow);Set(Rec1013Color,Color.GreenYellow);Set(Rec1014Color,Color.GreenYellow);
+//SEC101 COLUMN 2 
+Set(Rec1015Color,Color.GreenYellow);Set(Rec1016Color,Color.GreenYellow);Set(Rec1017Color,Color.GreenYellow);Set(Rec1018Color,Color.GreenYellow);
+//SEC101 COLUMN 3
+Set(Rec1019Color,Color.GreenYellow);Set(Rec10110Color,Color.GreenYellow);Set(Rec10111Color,Color.GreenYellow);Set(Rec10112Color,Color.GreenYellow);
+//SEC102 WHOLE
+Set(Rec102Color,Color.GreenYellow);
+//SEC102 COLUMN 1
+Set(Rec1021Color,Color.GreenYellow);Set(Rec1022Color,Color.GreenYellow);Set(Rec1023Color,Color.GreenYellow);Set(Rec1024Color,Color.GreenYellow);
+//SEC102 COLUMN 2
+Set(Rec1025Color,Color.GreenYellow);Set(Rec1026Color,Color.GreenYellow);Set(Rec1027Color,Color.GreenYellow);Set(Rec1028Color,Color.GreenYellow);
+//SEC COLUMN 3
+Set(Rec1029Color,Color.GreenYellow);Set(Rec10210Color,Color.GreenYellow);Set(Rec10211Color,Color.GreenYellow);Set(Rec10212Color,Color.GreenYellow);
+//MPT XT
+Set(MPTXTColor,Color.GreenYellow);
+//MPT LR
+Set(MPTLRColor,Color.GreenYellow);
+//AOI 102
+Set(AOI102Color,Color.GreenYellow);
+//FAST AIC 
+Set(FASTAICColor,Color.Red);
+//PPV PROG
+Set(PPVPROGColor,Color.Red);
+//Microscope
+Set(MicroscopeColor,Color.GreenYellow);
+//SSD TESTER HI37
+Set(SSDTESTERHI37Color,Color.GreenYellow);
+//SSD TESTER PH3700
+Set(SSDTESTERPH3700Color,Color.GreenYellow);
+//Other Variables
+Set(labeltext,"");Set(labelcolor,Color.GreenYellow);Set(stringcommentary,"");Set(varshowpopup2, false );Set(varshowpopup3, false );Set(updowntext,"");Set(varshowpopup4, false );Set(easteregg, false );
+//WAITINGS
+Set(waiting, false );Set(waiting105, false );Set(waiting102, false );Set(waiting101, false );Set(waitingMPTXT, false );Set(waitingMPTLR, false );Set(waitingAOI102, false );Set(waitingPPVPROG, false );Set(waitingFASTAIC, false );Set(waitingMICROSCOPE, false );Set(waitingSSDHI37, false );Set(waitingSSDPH3700, false );
+//END OF WAITINGS
+
+//FLAGS BUTTONS
+Set(banderaboton, false );Set(banderaboton2, false );Set(banderaboton4, false );Set(banderaboton5, false );Set(banderaboton6, false );Set(banderaboton7, false );Set(banderaboton8, false );Set(banderaboton9, false );Set(banderaboton10, false );Set(banderaboton11, false );
+//END OF FLAGS BUTTONS
+
+//DISABLED BUTTONS
+Set(BotonInhabilitado,DisplayMode.Edit);Set(BotonInhabilitado2,DisplayMode.Edit);
+//END OF DISABLED BUTTONS
+
+//LABEL STATUS
+Set(labelstatus105,"");Set(labelstatus102,"");Set(labelstatus101,"");Set(labelstatusMPTXT,"");Set(labelstatusMPTLR,"");Set(labelstatusAOI102,"");Set(labelstatusPPVPROG,"");Set(labelstatusFASTAIC,"");Set(labelstatusMICROSCOPE,"");Set(labelstatusSSDTESTERHI37,"");Set(labelstatusSSDTESTERPH3700,"");
+//END OF LABEL STATUS
+
+//METROLOGY REGISTERS
+Set(textdownevent,"");Set(textdownreason,"");Set(guardarcomentario,"");Set(username,"");
+//SEC105
+Set(txtdownevent105,"");Set(txtdownreason105,"");Set(txtdowncommentary105,"");
+//END OF SEC105
+
+//SEC102
+Set(txtdownevent102,"");Set(txtdownreason102,"");Set(txtdowncommentary102,"");
+//END OF SEC102
+
+//SEC101
+Set(txtdownevent101,"");Set(txtdownreason101,"");Set(txtdowncommentary101,"");
+//END OF SEC101
+
+//MPT XT
+Set(txtdowneventMPTXT,"");Set(txtdownreasonMPTXT,"");Set(txtdowncommentaryMPXT,"");
+//END OF MPT XT
+
+//MPT LR
+Set(txtdowneventMPTLR,"");Set(txtdownreasonMPTLR,"");Set(txtdowncommentaryMPLR,"");
+//END OF MPT LR
+
+//AOI 102 
+Set(txtdowneventAOI102,"");Set(txtdownreasonAOI102,"");Set(txtdowncommentaryAOI102,"");
+//END OF AOI 102
+
+//FAST AIC
+Set(txtdowneventFASTAIC,"");Set(txtdownreasonFASTAIC,"");Set(txtdowncommentaryFASTAIC,"");
+//END OF FAST AIC
+
+//PPV PROG
+Set(txtdowneventPPVPROG,"");Set(txtdownreasonPPVPROG,"");Set(txtdowncommentaryPPVPROG,"");
+//END OF PPV PROG
+
+//MICROSCOPE
+Set(txtdowneventMICROSCOPE,"");Set(txtdownreasonMICROSCOPE,"");Set(txtdowncommentaryMICROSCOPE,"");
+//END OF MICROSCOPE
+
+//SSD TESTER HI37
+Set(txtdowneventSSDTESTERHI37,"");Set(txtdownreasonSSDTESTERHI37,"");Set(txtdowncommentarySSDTESTERHI37,"");
+//END OF SSD TESTER HI37
+
+//SSD TESTER PH3700
+Set(txtdowneventSSDTESTERPH3700,"");Set(txtdownreasonSSDTESTERPH3700,"");Set(txtdowncommentarySSDTESTERPH3700,"");
+//END OF TESTER PH3700
+
+//END OF METROLOGY REGISTERS
+
+//METROLOGY SINGLE CELL
+
+//SEC105 CELL01
+Set(txtdownevent1051,"");Set(txtdownreason1051,"");Set(txtdowncommentary1051,"");Set(labelstatus1051,"");
+//END OF SEC105 CELL01
+
+//SEC105 CELL02
+Set(txtdownevent1052,"");Set(txtdownreason1052,"");Set(txtdowncommentary1052,"");Set(labelstatus1052,"");
+//END OF SEC105 CELL02
+
+//SEC105 CELL03
+Set(txtdownevent1053,"");Set(txtdownreason1053,"");Set(txtdowncommentary1053,"");Set(labelstatus1053,"");
+//END OF SEC105 CELL03
+
+//SEC105 CELL04
+Set(txtdownevent1054,"");Set(txtdownreason1054,"");Set(txtdowncommentary1054,"");Set(labelstatus1054,"");
+//END OF SEC105 CELL04
+
+//SEC105 CELL05
+Set(txtdownevent1055,"");Set(txtdownreason1055,"");Set(txtdowncommentary1055,"");Set(labelstatus1055,"");
+//END OF SEC105 CELL05
+
+//SEC105 CELL06
+Set(txtdownevent1056,"");Set(txtdownreason1056,"");Set(txtdowncommentary1056,"");Set(labelstatus1056,"");
+//END OF SEC105 CELL06
+
+//SEC105 CELL07
+Set(txtdownevent1057,"");Set(txtdownreason1057,"");Set(txtdowncommentary1057,"");Set(labelstatus1057,"");
+//END OF SEC105 CELL07
+
+//SEC105 CELL08
+Set(txtdownevent1058,"");Set(txtdownreason1058,"");Set(txtdowncommentary1058,"");Set(labelstatus1058,"");
+//END OF SEC105 CELL08
+
+//SEC105 CELL09
+Set(txtdownevent1059,"");Set(txtdownreason1059,"");Set(txtdowncommentary1059,"");Set(labelstatus1059,"");
+//END OF SEC105 CELL09
+
+//SEC105 CELL10
+Set(txtdownevent10510,"");Set(txtdownreason10510,"");Set(txtdowncommentary10510,"");Set(labelstatus10510,"");
+//END OF SEC105 CELL10
+
+//SEC105 CELL11
+Set(txtdownevent10511,"");Set(txtdownreason10511,"");Set(txtdowncommentary10511,"");Set(labelstatus10511,"");
+//END OF SEC105 CELL11
+
+//SEC105 CELL12
+Set(txtdownevent10512,"");Set(txtdownreason10512,"");Set(txtdowncommentary10512,"");Set(labelstatus10512,"");
+//END OF SEC105 CELL12
+
+//SEC102 CELL1
+Set(txtdownevent1021,"");Set(txtdownreason1021,"");Set(txtdowncommentary1021,"");Set(labelstatus1021,"");
+//END OF SEC102 CELL1
+
+//SEC102 CELL2
+Set(txtdownevent1022,"");Set(txtdownreason1022,"");Set(txtdowncommentary1022,"");Set(labelstatus1022,"");
+//END OF SEC102 CELL2
+
+//SEC102 CELL3
+Set(txtdownevent1023,"");Set(txtdownreason1023,"");Set(txtdowncommentary1023,"");Set(labelstatus1023,"");
+//END OF SEC102 CELL3
+
+//SEC102 CELL4
+Set(txtdownevent1024,"");Set(txtdownreason1024,"");Set(txtdowncommentary1024,"");Set(labelstatus1024,"");
+//END OF SEC102 CELL4
+
+//SEC102 CELL05
+Set(txtdownevent1025,"");Set(txtdownreason1025,"");Set(txtdowncommentary1025,"");Set(labelstatus1025,"");
+//END OF SEC102 CELL05
+
+//SEC102 CELL06
+Set(txtdownevent1026,"");Set(txtdownreason1026,"");Set(txtdowncommentary1026,"");Set(labelstatus1026,"");
+//END OF SEC102 CELL06
+
+//SEC102 CELL07
+Set(txtdownevent1027,"");Set(txtdownreason1027,"");Set(txtdowncommentary1027,"");Set(labelstatus1027,"");
+//END OF SEC102 CELL07
+
+//SEC102 CELL08
+Set(txtdownevent1028,"");Set(txtdownreason1028,"");Set(txtdowncommentary1028,"");Set(labelstatus1028,"");
+//END OF SEC102 CELL08
+
+//SEC102 CELL09
+Set(txtdownevent1029,"");Set(txtdownreason1029,"");Set(txtdowncommentary1029,"");Set(labelstatus1029,"");
+//END OF SEC102 CELL09
+
+//SEC102 CELL10
+Set(txtdownevent10210,"");Set(txtdownreason10210,"");Set(txtdowncommentary10210,"");Set(labelstatus10210,"");
+//END OF SEC102 CELL10
+
+//SEC102 CELL11
+Set(txtdownevent10211,"");Set(txtdownreason10211,"");Set(txtdowncommentary10211,"");Set(labelstatus10211,"");
+//END OF SEC102 CELL11
+
+//SEC102 CELL12
+Set(txtdownevent10212,"");Set(txtdownreason10212,"");Set(txtdowncommentary10212,"");Set(labelstatus10212,"");
+//END OF SEC102 CELL12
+
+//------------------------------------------------
+
+//SEC101 CELL01
+Set(txtdownevent1011,"");Set(txtdownreason1011,"");Set(txtdowncommentary1011,"");Set(labelstatus1011,"");
+//END OF SEC101 CELL01
+
+//SEC101 CELL02
+Set(txtdownevent1012,"");Set(txtdownreason1012,"");Set(txtdowncommentary1012,"");Set(labelstatus1012,"");
+//END OF SEC101 CELL02
+
+//SEC101 CELL03
+Set(txtdownevent1013,"");Set(txtdownreason1013,"");Set(txtdowncommentary1013,"");Set(labelstatus1013,"");
+//END OF SEC101 CELL03
+
+//SEC101 CELL04
+Set(txtdownevent1014,"");Set(txtdownreason1014,"");Set(txtdowncommentary1014,"");Set(labelstatus1014,"");
+//END OF SEC101 CELL04
+
+//SEC101 CELL05
+Set(txtdownevent1015,"");Set(txtdownreason1015,"");Set(txtdowncommentary1015,"");Set(labelstatus1015,"");
+//END OF SEC101 CELL05
+
+//SEC101 CELL06
+Set(txtdownevent1016,"");Set(txtdownreason1016,"");Set(txtdowncommentary1016,"");Set(labelstatus1016,"");
+//END OF SEC101 CELL06
+
+//SEC101 CELL07
+Set(txtdownevent1017,"");Set(txtdownreason1017,"");Set(txtdowncommentary1017,"");Set(labelstatus1017,"");
+//END OF SEC101 CELL07
+
+//SEC101 CELL08
+Set(txtdownevent1018,"");Set(txtdownreason1018,"");Set(txtdowncommentary1018,"");Set(labelstatus1018,"");
+//END OF SEC101 CELL08
+
+//SEC101 CELL09
+Set(txtdownevent1019,"");Set(txtdownreason1019,"");Set(txtdowncommentary1019,"");Set(labelstatus1019,"");
+//END OF SEC101 CELL09
+
+//SEC101 CELL10
+Set(txtdownevent10110,"");Set(txtdownreason10110,"");Set(txtdowncommentary10110,"");Set(labelstatus10110,"");
+//END OF SEC105 CELL10
+
+//SEC101 CELL11
+Set(txtdownevent10111,"");Set(txtdownreason10111,"");Set(txtdowncommentary10111,"");Set(labelstatus10111,"");
+//END OF SEC101 CELL11
+
+//SEC101 CELL12
+Set(txtdownevent10112,"");NH BSet(txtdownreason10112,"");Set(txtdowncommentary10112,"");Set(labelstatus10112,"");
+//END OF SEC101 CELL12
+
+//END OF METROLOGY SINGLE CELL
+
+//USERNAME PER METROLOGY START
+Set(username105,"");Set(username102,"");Set(username101,"");Set(usernameMPTXT,"");Set(usernameMPTLR,"");Set(usernameAOI102,"");Set(usernamePPVPROG,"");Set(usernameFASTAIC,"");Set(usernameMICROSCOPE,"");Set(usernameSSDHI37,"");Set(usernameSSDPH3700,"");
+//USERNAME PER METROLOGY END
+

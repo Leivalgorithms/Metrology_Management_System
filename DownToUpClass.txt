@@ -1,0 +1,1512 @@
+//SEC105 WHOLE
+If(
+    labeltext = "SEC105" && (Timer1.Value = 0 || Timer1.Value = 11000),
+    Set(
+        banderaboton,
+        true
+    );
+    Timer1.AutoStart;
+    Timer1.Reset;
+    Set(
+        waiting,
+        true
+    );
+    Set(
+        labelstatus105,
+        "UP"
+    );
+    Set(
+        updowntext,
+        "UP"
+    );
+    Set(
+        Rec105Color,
+        Color.GreenYellow
+    );
+    Set(
+        Rec1051Color,
+        Color.GreenYellow
+    );
+    Set(
+        Rec1052Color,
+        Color.GreenYellow
+    );
+    Set(
+        Rec1053Color,
+        Color.GreenYellow
+    );
+    Set(
+        Rec1054Color,
+        Color.GreenYellow
+    );
+    Set(
+        Rec1055Color,
+        Color.GreenYellow
+    );
+    Set(
+        Rec1056Color,
+        Color.GreenYellow
+    );
+    Set(
+        Rec1057Color,
+        Color.GreenYellow
+    );
+    Set(
+        Rec1058Color,
+        Color.GreenYellow
+    );
+    Set(
+        Rec1059Color,
+        Color.GreenYellow
+    );
+    Set(
+        Rec10510Color,
+        Color.GreenYellow
+    );
+    Set(
+        Rec10511Color,
+        Color.GreenYellow
+    );
+    Set(
+        Rec10512Color,
+        Color.GreenYellow
+    );
+    Set(
+        labelcolor,
+        Color.GreenYellow
+    );
+    Set(
+        LastRegister,
+        Last(
+            Filter(
+                Table4,
+                METROLOGY = "SEC105"
+            )
+        )
+    );
+    Patch(
+        Table4,
+        LastRegister,
+        {REPAIR_ACTION: cbxrepairactions.Selected.'Repair Action '}
+    );
+    Patch(
+        Table13,
+        LookUp(
+            Table13,
+            ID = "20"
+        ),
+        {STATUS: "UP"}
+    ),
+    Set(
+        banderaboton,
+        false
+    );
+    
+);
+//FIN DE SEC105
+//SEC102 WHOLE
+If(
+    labeltext = "SEC102" && (Timer2.Value = 0 || Timer2.Value = 11000),
+    Set(
+        banderaboton2,
+        true
+    );
+    Set(
+        waiting,
+        true
+    );
+    Set(
+        labelstatus102,
+        "UP"
+    );
+    Set(
+        updowntext,
+        "UP"
+    );
+    Timer2.AutoStart;
+    Timer2.Reset;
+    Set(
+        Rec102Color,
+        Color.GreenYellow
+    );
+    Set(
+        Rec1021Color,
+        Color.GreenYellow
+    );
+    Set(
+        Rec1022Color,
+        Color.GreenYellow
+    );
+    Set(
+        Rec1023Color,
+        Color.GreenYellow
+    );
+    Set(
+        Rec1024Color,
+        Color.GreenYellow
+    );
+    Set(
+        Rec1025Color,
+        Color.GreenYellow
+    );
+    Set(
+        Rec1026Color,
+        Color.GreenYellow
+    );
+    Set(
+        Rec1027Color,
+        Color.GreenYellow
+    );
+    Set(
+        Rec1028Color,
+        Color.GreenYellow
+    );
+    Set(
+        Rec1029Color,
+        Color.GreenYellow
+    );
+    Set(
+        Rec10210Color,
+        Color.GreenYellow
+    );
+    Set(
+        Rec10211Color,
+        Color.GreenYellow
+    );
+    Set(
+        Rec10212Color,
+        Color.GreenYellow
+    );
+    Set(
+        labelcolor,
+        Color.GreenYellow
+    );
+    Set(
+        LastRegister,
+        Last(
+            Filter(
+                Table4,
+                METROLOGY = "SEC102"
+            )
+        )
+    );
+    Patch(
+        Table4,
+        LastRegister,
+        {REPAIR_ACTION: cbxrepairactions.Selected.'Repair Action '}
+    );
+    Patch(
+        Table13,
+        LookUp(
+            Table13,
+            ID = "18"
+        ),
+        {STATUS: "UP"}
+    ),
+    Set(
+        banderaboton2,
+        false
+    );
+    
+);
+//FIN DE SEC102
+//SEC101 WHOLE
+If(
+    labeltext = "SEC101" && (Timer3.Value = 0 || Timer3.Value = 11000),
+    Set(
+        banderaboton3,
+        true
+    );
+    Set(
+        waiting,
+        true
+    );
+    Set(
+        labelstatus101,
+        "UP"
+    );
+    Set(
+        updowntext,
+        "UP"
+    );
+    Timer3.AutoStart;
+    Timer3.Reset;
+    Set(
+        Rec101Color,
+        Color.GreenYellow
+    );
+    Set(
+        Rec1011Color,
+        Color.GreenYellow
+    );
+    Set(
+        Rec1012Color,
+        Color.GreenYellow
+    );
+    Set(
+        Rec1013Color,
+        Color.GreenYellow
+    );
+    Set(
+        Rec1014Color,
+        Color.GreenYellow
+    );
+    Set(
+        Rec1015Color,
+        Color.GreenYellow
+    );
+    Set(
+        Rec1016Color,
+        Color.GreenYellow
+    );
+    Set(
+        Rec1017Color,
+        Color.GreenYellow
+    );
+    Set(
+        Rec1018Color,
+        Color.GreenYellow
+    );
+    Set(
+        Rec1019Color,
+        Color.GreenYellow
+    );
+    Set(
+        Rec10110Color,
+        Color.GreenYellow
+    );
+    Set(
+        Rec10111Color,
+        Color.GreenYellow
+    );
+    Set(
+        Rec10112Color,
+        Color.GreenYellow
+    );
+    Set(
+        labelcolor,
+        Color.GreenYellow
+    );
+    Set(
+        LastRegister,
+        Last(
+            Filter(
+                Table4,
+                METROLOGY = "SEC101"
+            )
+        )
+    );
+    Patch(
+        Table4,
+        LastRegister,
+        {REPAIR_ACTION: cbxrepairactions.Selected.'Repair Action '}
+    );
+    Patch(
+        Table13,
+        LookUp(
+            Table13,
+            ID = "19"
+        ),
+        {STATUS: "UP"}
+    ),
+    Set(
+        banderaboton3,
+        false
+    );
+    
+);
+//FIN DE SEC101 
+//SINGLE CELL SEC105
+If(
+    labeltext = "SEC105 - CELL01",
+    Set(
+        Rec1051Color,
+        Color.GreenYellow
+    );
+    Set(
+        labelcolor,
+        Color.GreenYellow
+    );
+    Set(
+        updowntext,
+        "UP"
+    );
+    Set(
+        labelstatus1051,
+        "UP"
+    );
+    
+);
+If(
+    labeltext = "SEC105 - CELL02",
+    Set(
+        Rec1052Color,
+        Color.GreenYellow
+    );
+    Set(
+        labelcolor,
+        Color.GreenYellow
+    );
+    Set(
+        updowntext,
+        "UP"
+    );
+    Set(
+        labelstatus1052,
+        "UP"
+    );
+    
+);
+If(
+    labeltext = "SEC105 - CELL03",
+    Set(
+        Rec1053Color,
+        Color.GreenYellow
+    );
+    Set(
+        labelcolor,
+        Color.GreenYellow
+    );
+    Set(
+        updowntext,
+        "UP"
+    );
+    Set(
+        labelstatus1053,
+        "UP"
+    );
+    
+);
+If(
+    labeltext = "SEC105 - CELL04",
+    Set(
+        Rec1054Color,
+        Color.GreenYellow
+    );
+    Set(
+        labelcolor,
+        Color.GreenYellow
+    );
+    Set(
+        updowntext,
+        "UP"
+    );
+    Set(
+        labelstatus1054,
+        "UP"
+    );
+    
+);
+If(
+    labeltext = "SEC105 - CELL05",
+    Set(
+        Rec1055Color,
+        Color.GreenYellow
+    );
+    Set(
+        labelcolor,
+        Color.GreenYellow
+    );
+    Set(
+        updowntext,
+        "UP"
+    );
+    Set(
+        labelstatus1055,
+        "UP"
+    );
+    
+);
+If(
+    labeltext = "SEC105 - CELL06",
+    Set(
+        Rec1056Color,
+        Color.GreenYellow
+    );
+    Set(
+        labelcolor,
+        Color.GreenYellow
+    );
+    Set(
+        updowntext,
+        "UP"
+    );
+    Set(
+        labelstatus1056,
+        "UP"
+    );
+    
+);
+If(
+    labeltext = "SEC105 - CELL07",
+    Set(
+        Rec1057Color,
+        Color.GreenYellow
+    );
+    Set(
+        labelcolor,
+        Color.GreenYellow
+    );
+    Set(
+        updowntext,
+        "UP"
+    );
+    Set(
+        labelstatus1057,
+        "UP"
+    );
+    
+);
+If(
+    labeltext = "SEC105 - CELL08",
+    Set(
+        Rec1058Color,
+        Color.GreenYellow
+    );
+    Set(
+        labelcolor,
+        Color.GreenYellow
+    );
+    Set(
+        updowntext,
+        "UP"
+    );
+    Set(
+        labelstatus1058,
+        "UP"
+    );
+    
+);
+If(
+    labeltext = "SEC105 - CELL09",
+    Set(
+        Rec1059Color,
+        Color.GreenYellow
+    );
+    Set(
+        labelcolor,
+        Color.GreenYellow
+    );
+    Set(
+        updowntext,
+        "UP"
+    );
+    Set(
+        labelstatus1059,
+        "UP"
+    );
+    
+);
+If(
+    labeltext = "SEC105 - CELL10",
+    Set(
+        Rec10510Color,
+        Color.GreenYellow
+    );
+    Set(
+        labelcolor,
+        Color.GreenYellow
+    );
+    Set(
+        updowntext,
+        "UP"
+    );
+    Set(
+        labelstatus10510,
+        "UP"
+    );
+    
+);
+If(
+    labeltext = "SEC105 - CELL11",
+    Set(
+        Rec10511Color,
+        Color.GreenYellow
+    );
+    Set(
+        labelcolor,
+        Color.GreenYellow
+    );
+    Set(
+        updowntext,
+        "UP"
+    );
+    Set(
+        labelstatus10511,
+        "UP"
+    );
+    
+);
+If(
+    labeltext = "SEC105 - CELL12",
+    Set(
+        Rec10512Color,
+        Color.GreenYellow
+    );
+    Set(
+        labelcolor,
+        Color.GreenYellow
+    );
+    Set(
+        updowntext,
+        "UP"
+    );
+    Set(
+        labelstatus10512,
+        "UP"
+    );
+    
+);
+//END OF SINGLE CELL SEC105 
+//SINGLE CELL SEC102
+If(
+    labeltext = "SEC102 - CELL01",
+    Set(
+        Rec1021Color,
+        Color.GreenYellow
+    );
+    Set(
+        labelcolor,
+        Color.GreenYellow
+    );
+    Set(
+        updowntext,
+        "UP"
+    );
+    Set(
+        labelstatus1021,
+        "UP"
+    );
+    
+);
+If(
+    labeltext = "SEC102 - CELL02",
+    Set(
+        Rec1022Color,
+        Color.GreenYellow
+    );
+    Set(
+        labelcolor,
+        Color.GreenYellow
+    );
+    Set(
+        updowntext,
+        "UP"
+    );
+    Set(
+        labelstatus1022,
+        "UP"
+    );
+    
+);
+If(
+    labeltext = "SEC102 - CELL03",
+    Set(
+        Rec1023Color,
+        Color.GreenYellow
+    );
+    Set(
+        labelcolor,
+        Color.GreenYellow
+    );
+    Set(
+        updowntext,
+        "UP"
+    );
+    Set(
+        labelstatus1023,
+        "UP"
+    );
+    
+);
+If(
+    labeltext = "SEC102 - CELL04",
+    Set(
+        Rec1024Color,
+        Color.GreenYellow
+    );
+    Set(
+        labelcolor,
+        Color.GreenYellow
+    );
+    Set(
+        updowntext,
+        "UP"
+    );
+    Set(
+        labelstatus1024,
+        "UP"
+    );
+    
+);
+If(
+    labeltext = "SEC102 - CELL05",
+    Set(
+        Rec1025Color,
+        Color.GreenYellow
+    );
+    Set(
+        labelcolor,
+        Color.GreenYellow
+    );
+    Set(
+        updowntext,
+        "UP"
+    );
+    Set(
+        labelstatus1025,
+        "UP"
+    );
+    
+);
+If(
+    labeltext = "SEC102 - CELL06",
+    Set(
+        Rec1026Color,
+        Color.GreenYellow
+    );
+    Set(
+        labelcolor,
+        Color.GreenYellow
+    );
+    Set(
+        updowntext,
+        "UP"
+    );
+    Set(
+        labelstatus1026,
+        "UP"
+    );
+    
+);
+If(
+    labeltext = "SEC102 - CELL07",
+    Set(
+        Rec1027Color,
+        Color.GreenYellow
+    );
+    Set(
+        labelcolor,
+        Color.GreenYellow
+    );
+    Set(
+        updowntext,
+        "UP"
+    );
+    Set(
+        labelstatus1027,
+        "UP"
+    );
+    
+);
+If(
+    labeltext = "SEC102 - CELL08",
+    Set(
+        Rec1028Color,
+        Color.GreenYellow
+    );
+    Set(
+        labelcolor,
+        Color.GreenYellow
+    );
+    Set(
+        updowntext,
+        "UP"
+    );
+    Set(
+        labelstatus1028,
+        "UP"
+    );
+    
+);
+If(
+    labeltext = "SEC102 - CELL09",
+    Set(
+        Rec1029Color,
+        Color.GreenYellow
+    );
+    Set(
+        labelcolor,
+        Color.GreenYellow
+    );
+    Set(
+        updowntext,
+        "UP"
+    );
+    Set(
+        labelstatus1029,
+        "UP"
+    );
+    
+);
+If(
+    labeltext = "SEC102 - CELL10",
+    Set(
+        Rec10210Color,
+        Color.GreenYellow
+    );
+    Set(
+        labelcolor,
+        Color.GreenYellow
+    );
+    Set(
+        updowntext,
+        "UP"
+    );
+    Set(
+        labelstatus10210,
+        "UP"
+    );
+    
+);
+If(
+    labeltext = "SEC102 - CELL11",
+    Set(
+        Rec10211Color,
+        Color.GreenYellow
+    );
+    Set(
+        labelcolor,
+        Color.GreenYellow
+    );
+    Set(
+        updowntext,
+        "UP"
+    );
+    Set(
+        labelstatus10211,
+        "UP"
+    );
+    
+);
+If(
+    labeltext = "SEC102 - CELL12",
+    Set(
+        Rec10212Color,
+        Color.GreenYellow
+    );
+    Set(
+        labelcolor,
+        Color.GreenYellow
+    );
+    Set(
+        updowntext,
+        "UP"
+    );
+    Set(
+        labelstatus10212,
+        "UP"
+    );
+    
+);
+//END OF SINGLE CELL SEC102
+//SINGLE CELL SEC101
+If(
+    labeltext = "SEC101 - CELL01",
+    Set(
+        Rec1011Color,
+        Color.GreenYellow
+    );
+    Set(
+        labelcolor,
+        Color.GreenYellow
+    );
+    Set(
+        updowntext,
+        "UP"
+    );
+    Set(
+        labelstatus1011,
+        "UP"
+    );
+    
+);
+If(
+    labeltext = "SEC101 - CELL02",
+    Set(
+        Rec1012Color,
+        Color.GreenYellow
+    );
+    Set(
+        labelcolor,
+        Color.GreenYellow
+    );
+    Set(
+        updowntext,
+        "UP"
+    );
+    Set(
+        labelstatus1012,
+        "UP"
+    );
+    
+);
+If(
+    labeltext = "SEC101 - CELL03",
+    Set(
+        Rec1013Color,
+        Color.GreenYellow
+    );
+    Set(
+        labelcolor,
+        Color.GreenYellow
+    );
+    Set(
+        updowntext,
+        "UP"
+    );
+    Set(
+        labelstatus1013,
+        "UP"
+    );
+    
+);
+If(
+    labeltext = "SEC101 - CELL04",
+    Set(
+        Rec1014Color,
+        Color.GreenYellow
+    );
+    Set(
+        labelcolor,
+        Color.GreenYellow
+    );
+    Set(
+        updowntext,
+        "UP"
+    );
+    Set(
+        labelstatus1014,
+        "UP"
+    );
+    
+);
+If(
+    labeltext = "SEC101 - CELL05",
+    Set(
+        Rec1015Color,
+        Color.GreenYellow
+    );
+    Set(
+        labelcolor,
+        Color.GreenYellow
+    );
+    Set(
+        updowntext,
+        "UP"
+    );
+    Set(
+        labelstatus1015,
+        "UP"
+    );
+    
+);
+If(
+    labeltext = "SEC101 - CELL06",
+    Set(
+        Rec1016Color,
+        Color.GreenYellow
+    );
+    Set(
+        labelcolor,
+        Color.GreenYellow
+    );
+    Set(
+        updowntext,
+        "UP"
+    );
+    Set(
+        labelstatus1016,
+        "UP"
+    );
+    
+);
+If(
+    labeltext = "SEC101 - CELL07",
+    Set(
+        Rec1017Color,
+        Color.GreenYellow
+    );
+    Set(
+        labelcolor,
+        Color.GreenYellow
+    );
+    Set(
+        updowntext,
+        "UP"
+    );
+    Set(
+        labelstatus1017,
+        "UP"
+    );
+    
+);
+If(
+    labeltext = "SEC101 - CELL08",
+    Set(
+        Rec1018Color,
+        Color.GreenYellow
+    );
+    Set(
+        labelcolor,
+        Color.GreenYellow
+    );
+    Set(
+        updowntext,
+        "UP"
+    );
+    Set(
+        labelstatus1018,
+        "UP"
+    );
+    
+);
+If(
+    labeltext = "SEC101 - CELL09",
+    Set(
+        Rec1019Color,
+        Color.GreenYellow
+    );
+    Set(
+        labelcolor,
+        Color.GreenYellow
+    );
+    Set(
+        updowntext,
+        "UP"
+    );
+    Set(
+        labelstatus1019,
+        "UP"
+    );
+    
+);
+If(
+    labeltext = "SEC101 - CELL10",
+    Set(
+        Rec10110Color,
+        Color.GreenYellow
+    );
+    Set(
+        labelcolor,
+        Color.GreenYellow
+    );
+    Set(
+        updowntext,
+        "UP"
+    );
+    Set(
+        labelstatus10110,
+        "UP"
+    );
+    
+);
+If(
+    labeltext = "SEC101 - CELL11",
+    Set(
+        Rec10111Color,
+        Color.GreenYellow
+    );
+    Set(
+        labelcolor,
+        Color.GreenYellow
+    );
+    Set(
+        updowntext,
+        "UP"
+    );
+    Set(
+        labelstatus10111,
+        "UP"
+    );
+    
+);
+If(
+    labeltext = "SEC101 - CELL12",
+    Set(
+        Rec10112Color,
+        Color.GreenYellow
+    );
+    Set(
+        labelcolor,
+        Color.GreenYellow
+    );
+    Set(
+        updowntext,
+        "UP"
+    );
+    Set(
+        labelstatus10112,
+        "UP"
+    );
+    
+);
+//END OF SINGLE CELL SEC101
+//MPT XT
+If(
+    labeltext = "MPT XT" && (Timer4.Value = 0 || Timer4.Value = 11000),
+    Set(
+        banderaboton4,
+        true
+    );
+    Set(
+        waiting,
+        true
+    );
+    Set(
+        labelstatusMPTXT,
+        "UP"
+    );
+    Set(
+        updowntext,
+        "UP"
+    );
+    Set(
+        labelcolor,
+        Color.GreenYellow
+    );
+    Timer4.AutoStart;
+    Timer4.Reset;
+    Set(
+        MPTXTColor,
+        Color.GreenYellow
+    );
+    Set(
+        LastRegister,
+        Last(
+            Filter(
+                Table4,
+                METROLOGY = "MPT XT"
+            )
+        )
+    );
+    Patch(
+        Table4,
+        LastRegister,
+        {REPAIR_ACTION: cbxrepairactions.Selected.'Repair Action '}
+    );
+    Patch(
+        Table13,
+        LookUp(
+            Table13,
+            ID = "1"
+        ),
+        {STATUS: "UP"}
+    ),
+    Set(
+        banderaboton4,
+        false
+    );
+    
+);
+//END OF MPT XT
+//MPT LR
+If(
+    labeltext = "MPT LR" && (Timer5.Value = 0 || Timer5.Value = 11000),
+    Set(
+        banderaboton5,
+        true
+    );
+    Set(
+        waiting,
+        true
+    );
+    Set(
+        labelstatusMPTLR,
+        "UP"
+    );
+    Set(
+        updowntext,
+        "UP"
+    );
+    Set(
+        labelcolor,
+        Color.GreenYellow
+    );
+    Timer5.AutoStart;
+    Timer5.Reset;
+    Set(
+        MPTLRColor,
+        Color.GreenYellow
+    );
+    Set(
+        LastRegister,
+        Last(
+            Filter(
+                Table4,
+                METROLOGY = "MPT LR"
+            )
+        )
+    );
+    Patch(
+        Table4,
+        LastRegister,
+        {REPAIR_ACTION: cbxrepairactions.Selected.'Repair Action '}
+    );
+    Patch(
+        Table13,
+        LookUp(
+            Table13,
+            ID = "4"
+        ),
+        {STATUS: "UP"}
+    ),
+    Set(
+        banderaboton5,
+        false
+    );
+    
+);
+//END OF MPT LR
+//AOI 102
+If(
+    labeltext = "AOI 102" && (Timer6.Value = 0 || Timer6.Value = 11000),
+    Set(
+        banderaboton6,
+        true
+    );
+    Set(
+        waiting,
+        true
+    );
+    Set(
+        labelstatusAOI102,
+        "UP"
+    );
+    Set(
+        updowntext,
+        "UP"
+    );
+    Set(
+        labelcolor,
+        Color.GreenYellow
+    );
+    Timer6.AutoStart;
+    Timer6.Reset;
+    Set(
+        AOI102Color,
+        Color.GreenYellow
+    );
+    Set(
+        LastRegister,
+        Last(
+            Filter(
+                Table4,
+                METROLOGY = "AOI 102"
+            )
+        )
+    );
+    Patch(
+        Table4,
+        LastRegister,
+        {REPAIR_ACTION: cbxrepairactions.Selected.'Repair Action '}
+    );
+    Patch(
+        Table13,
+        LookUp(
+            Table13,
+            ID = "2"
+        ),
+        {STATUS: "UP"}
+    ),
+    Set(
+        banderaboton6,
+        false
+    );
+    
+);
+//END OF AOI 102
+//PPV PROG
+If(
+    labeltext = "PPV PROG" && (Timer7.Value = 0 || Timer7.Value = 11000),
+    Set(
+        banderaboton7,
+        true
+    );
+    Set(
+        waiting,
+        true
+    );
+    Set(
+        labelstatusPPVPROG,
+        "UP"
+    );
+    Set(
+        updowntext,
+        "UP"
+    );
+    Set(
+        labelcolor,
+        Color.GreenYellow
+    );
+    Timer7.AutoStart;
+    Timer7.Reset;
+    Set(
+        PPVPROGColor,
+        Color.GreenYellow
+    );
+    Set(
+        LastRegister,
+        Last(
+            Filter(
+                Table4,
+                METROLOGY = "PPV PROG"
+            )
+        )
+    );
+    Patch(
+        Table4,
+        LastRegister,
+        {REPAIR_ACTION: cbxrepairactions.Selected.'Repair Action '}
+    );
+    Patch(
+        Table13,
+        LookUp(
+            Table13,
+            ID = "15"
+        ),
+        {STATUS: "UP"}
+    ),
+    Set(
+        banderaboton7,
+        false
+    );
+    
+);
+//END OF PPV PROG
+//FAST AIC
+If(
+    labeltext = "FAST AIC" && (Timer8.Value = 0 || Timer8.Value = 11000),
+    Set(
+        banderaboton8,
+        true
+    );
+    Set(
+        waiting,
+        true
+    );
+    Set(
+        labelstatusFASTAIC,
+        "UP"
+    );
+    Set(
+        updowntext,
+        "UP"
+    );
+    Set(
+        labelcolor,
+        Color.GreenYellow
+    );
+    Timer8.AutoStart;
+    Timer8.Reset;
+    Set(
+        FASTAICColor,
+        Color.GreenYellow
+    );
+    Set(
+        LastRegister,
+        Last(
+            Filter(
+                Table4,
+                METROLOGY = "FAST AIC"
+            )
+        )
+    );
+    Patch(
+        Table4,
+        LastRegister,
+        {REPAIR_ACTION: cbxrepairactions.Selected.'Repair Action '}
+    );
+    Patch(
+        Table13,
+        LookUp(
+            Table13,
+            ID = "16"
+        ),
+        {STATUS: "UP"}
+    ),
+    Set(
+        banderaboton8,
+        false
+    );
+    
+);
+//END OF FAST AIC 
+//MICROSCOPE
+If(
+    labeltext = "Microscope" && (Timer9.Value = 0 || Timer9.Value = 11000),
+    Set(
+        banderaboton9,
+        true
+    );
+    Set(
+        waiting,
+        true
+    );
+    Set(
+        labelstatusMICROSCOPE,
+        "UP"
+    );
+    Set(
+        updowntext,
+        "UP"
+    );
+    Set(
+        labelcolor,
+        Color.GreenYellow
+    );
+    Timer9.AutoStart;
+    Timer9.Reset;
+    Set(
+        MicroscopeColor,
+        Color.GreenYellow
+    );
+    Set(
+        LastRegister,
+        Last(
+            Filter(
+                Table4,
+                METROLOGY = "MICROSCOPE"
+            )
+        )
+    );
+    Patch(
+        Table4,
+        LastRegister,
+        {REPAIR_ACTION: cbxrepairactions.Selected.'Repair Action '}
+    );
+    Patch(
+        Table13,
+        LookUp(
+            Table13,
+            ID = "17"
+        ),
+        {STATUS: "UP"}
+    ),
+    Set(
+        banderaboton9,
+        false
+    );
+    
+);
+//END OF MICROSCOPE 
+//SSD TESTER HI37
+If(
+    labeltext = "SSD TESTER HI37" && (Timer10.Value = 0 || Timer10.Value = 11000),
+    Set(
+        banderaboton10,
+        true
+    );
+    Set(
+        waiting,
+        true
+    );
+    Set(
+        labelstatusSSDTESTERHI37,
+        "UP"
+    );
+    Set(
+        updowntext,
+        "UP"
+    );
+    Set(
+        labelcolor,
+        Color.GreenYellow
+    );
+    Timer10.AutoStart;
+    Timer10.Reset;
+    Set(
+        SSDTESTERHI37Color,
+        Color.GreenYellow
+    );
+    Set(
+        LastRegister,
+        Last(
+            Filter(
+                Table4,
+                METROLOGY = "SSD TESTER HI3700"
+            )
+        )
+    );
+    Patch(
+        Table4,
+        LastRegister,
+        {REPAIR_ACTION: cbxrepairactions.Selected.'Repair Action '}
+    );
+    Patch(
+        Table13,
+        LookUp(
+            Table13,
+            ID = "3"
+        ),
+        {STATUS: "UP"}
+    ),
+    Set(
+        banderaboton10,
+        false
+    );
+    
+);
+//END OF SSD TESTER HI37
+//SSD TESTER PH3700
+If(
+    labeltext = "SSD TESTER PH3700" && (Timer11.Value = 0 || Timer11.Value = 11000),
+    Set(
+        banderaboton11,
+        true
+    );
+    Set(
+        waiting,
+        true
+    );
+    Set(
+        labelstatusSSDTESTERPH3700,
+        "UP"
+    );
+    Set(
+        updowntext,
+        "UP"
+    );
+    Set(
+        labelcolor,
+        Color.GreenYellow
+    );
+    Timer11.AutoStart;
+    Timer11.Reset;
+    Set(
+        SSDTESTERPH3700Color,
+        Color.GreenYellow
+    );
+    Set(
+        LastRegister,
+        Last(
+            Filter(
+                Table4,
+                METROLOGY = "SSD TESTER PH3700"
+            )
+        )
+    );
+    Patch(
+        Table4,
+        LastRegister,
+        {REPAIR_ACTION: cbxrepairactions.Selected.'Repair Action '}
+    );
+    Patch(
+        Table13,
+        LookUp(
+            Table13,
+            ID = "5"
+        ),
+        {STATUS: "UP"}
+    ),
+    Set(
+        banderaboton11,
+        false
+    );
+    
+);
+//END OF SSD TESTER PH3700
+Set(
+    varshowpopup2,
+    false
+);
